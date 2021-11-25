@@ -1,0 +1,14 @@
+# Data-Structures
+//a java program for finding a element
+
+public class Find {
+    public static void main(String args[]){
+        int arr[]={3,55,47,33,30,78,69};
+        int key=30;
+        for (int i=0;i<5;i++){
+            if (arr[i]==key){
+                System.out.println("Found");
+            }
+        }
+    }
+}
